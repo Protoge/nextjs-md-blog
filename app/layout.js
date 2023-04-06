@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./globals.css";
 import GoogleAnalytics from "./components/GoogleAnalytics";
+import CookieBanner from "./components/CookieBanner";
 
 export const metadata = {
   title: "Create Next App",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
         <div className="mx-auto max-w-2xl px-6">
           {header}
           {children}
+          <CookieBanner />
           {footer}
         </div>
       </body>
