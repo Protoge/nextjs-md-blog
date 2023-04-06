@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <GoogleAnalytics GA_MEASUREMENT_ID={"G-TQF6ZXN319"} />
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-TQF6ZXN319" />
       <body>
         <div className="mx-auto max-w-2xl px-6">
           {header}
